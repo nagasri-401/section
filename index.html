@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gym and Training Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #34495e;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+    .container {
+      padding: 20px;
+    }
+    .section {
+      background: white;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background: #2c3e50;
+      color: white;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gym & Training Dashboard</h1>
+  </header>
+
+  <nav>
+    <a href="#overview">Overview</a>
+    <a href="#process">Training Process</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#benefits">Benefits</a>
+  </nav>
+
+  <div class="container">
+    <section id="overview" class="section">
+      <h2>Overview</h2>
+      <p>Welcome to the Gym and Training Dashboard! Here you can view your training timings, understand the process, and learn the benefits of regular workouts.</p>
+    </section>
+
+    <section id="schedule" class="section">
+      <h2>Training Schedule</h2>
+      <table>
+        <tr><th>Session</th><th>Trainer</th><th>Time</th></tr>
+        <tr><td>Morning Strength</td><td>Asha</td><td>6:00 AM - 7:00 AM</td></tr>
+        <tr><td>Cardio Blast</td><td>Ravi</td><td>9:00 AM - 10:00 AM</td></tr>
+        <tr><td>Yoga Flow</td><td>Maya</td><td>6:30 PM - 7:30 PM</td></tr>
+      </table>
+    </section>
+
+    <section id="process" class="section">
+      <h2>Training Process</h2>
+      <ol>
+        <li><strong>Warm-up:</strong> 10 minutes of light cardio and stretching.</li>
+        <li><strong>Main Workout:</strong> Strength or cardio training as per your plan.</li>
+        <li><strong>Cool Down:</strong> 5-10 minutes of stretching to relax muscles.</li>
+        <li><strong>Nutrition:</strong> Balanced meal after workout.</li>
+      </ol>
+    </section>
+
+    <section id="benefits" class="section">
+      <h2>Benefits of Gym Training</h2>
+      <ul>
+        <li>Improves strength and endurance</li>
+        <li>Boosts mental health and mood</li>
+        <li>Helps in weight management</li>
+        <li>Improves flexibility and posture</li>
+        <li>Enhances overall fitness</li>
+      </ul>
+    </section>
+  </div>
+
+  <script>
+    console.log('Gym Dashboard Loaded');
+  </script>
+</body>
+</html>
